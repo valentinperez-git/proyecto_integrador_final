@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    background-color: rgba(83,83,84,255);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.text-center{
+    padding: 15px 10px;
+}
+
